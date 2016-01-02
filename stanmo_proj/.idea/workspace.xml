@@ -1,0 +1,1362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b3319fd1-1706-4d9c-ac1b-ee06d31e682f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/setup.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stanmo/app/config.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../stanmo_website_proj/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../stanmo_website_proj/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../stanmo_website_proj/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../stanmo_website_proj/.idea/stanmo_website_proj.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../stanmo_website_proj/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../stanmo.20150812.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../stanmo.20150822.churn.working.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../stanmo.20150822.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../stanmo.20150916.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../stanmo.20151005.all commands tested.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../stanmo.before.clean.up.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../stanmo.before.converting.to.package.20150908.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../stanmo.before.packageing.20150927.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../stanmo_proj.20151017.right.after.copy.crabrec.OK.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../stanmo_proj.20151110. before.moving spec to variable storage.7z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../stanmo_proj.all.unittest.OK.with.ajax.test.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/base/base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/churn/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/churn/churn_result.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/churn/churn_source.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/churn/churnmodelflask.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/churn/churnmodelspec.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/base1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/datasets/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/datasets/base1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/datasets/book_crossing.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/datasets/data/movielens100k.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/datasets/data/movielens100k.item" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/datasets/data/sample_movies.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/datasets/data/sample_songs.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/datasets/descr/book-crossing.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/datasets/descr/movielens100k.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/datasets/descr/sample_movies.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/datasets/descr/sample_songs.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/datasets/tests/data/BX-Book-Ratings.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/datasets/tests/data/BX-Books.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/datasets/tests/test_base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/metrics/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/metrics/base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/metrics/classes.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/metrics/cross_validation.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/metrics/metrics.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/metrics/pairwise.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/metrics/sampling.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/metrics/tests/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/metrics/tests/test_classes.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/metrics/tests/test_cross_validation.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/metrics/tests/test_metrics.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/metrics/tests/test_pairwise.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/models/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/models/base1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/models/classes.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/models/tests/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/models/tests/test_models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/models/utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/recommenders/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/recommenders/base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/recommenders/knn/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/recommenders/knn/base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/recommenders/knn/classes.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/recommenders/knn/item_strategies.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/recommenders/knn/neighborhood_strategies.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/recommenders/knn/tests/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/recommenders/knn/tests/test_classes.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/recommenders/knn/tests/test_item_strategies.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/recommenders/knn/tests/test_neighborhood_strategies.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/recommenders/svd/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/recommenders/svd/base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/recommenders/svd/classes.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/recommenders/svd/tests/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/recommenders/svd/tests/test_classes.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/similarities/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/similarities/base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/similarities/basic_similarities.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/similarities/tests/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/similarities/tests/test_base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/similarities/tests/test_basic_similarities.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/tests/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/tests/test_base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/utils/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/utils/extmath.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/utils/testing.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec_old.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo_data_to_delete/test/churn_apply_result_olllllllllllllllllld.csv" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stanmo/base/__init__.py" afterPath="$PROJECT_DIR$/stanmo/app/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stanmo/base/basemodelspec.py" afterPath="$PROJECT_DIR$/stanmo/app/basemodelspec.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stanmo/base/dbmodel.py" afterPath="$PROJECT_DIR$/stanmo/app/dbmodel.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stanmo/base/stanmoapp.py" afterPath="$PROJECT_DIR$/stanmo/app/stanmoapp.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stanmo_data/config/model_list.json" afterPath="$PROJECT_DIR$/stanmo/config/model_list.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stanmo_data/config/stanmo.cfg" afterPath="$PROJECT_DIR$/stanmo/config/stanmo to delete soon.cfg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stanmo_data/data/movielens100k.data" afterPath="$PROJECT_DIR$/stanmo/data/movielens100k.data" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stanmo_data/data/movielens100k.item" afterPath="$PROJECT_DIR$/stanmo/data/movielens100k.item" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stanmo_data/data/sample_movies.csv" afterPath="$PROJECT_DIR$/stanmo/data/sample_movies.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stanmo_data/data/sample_songs.csv" afterPath="$PROJECT_DIR$/stanmo/data/sample_songs.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stanmo_data/data/splits/movielens100k.data.sorted" afterPath="$PROJECT_DIR$/stanmo/data/splits/movielens100k.data.sorted" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stanmo_data/model/churn1.converting.to unittest.zip" afterPath="$PROJECT_DIR$/stanmo/model/churn1.converting.to unittest.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stanmo_data/model/churn1/data/churn_result.csv" afterPath="$PROJECT_DIR$/stanmo/model/churn1/data/churn_result.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stanmo_data/model/churn1/instance/1/model_inst.pkl" afterPath="$PROJECT_DIR$/stanmo/model/churn1/instance/1/model_inst.pkl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stanmo_data/model/churn1/instance/old......d/model_inst.pkl" afterPath="$PROJECT_DIR$/stanmo/model/churn1/instance/old......d/model_inst.pkl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stanmo_data/model/churn1/instance/x/2/model_inst.pkl" afterPath="$PROJECT_DIR$/stanmo/model/churn1/instance/x/2/model_inst.pkl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stanmo_data/model/churn1/instance/x/3/model_inst.pkl" afterPath="$PROJECT_DIR$/stanmo/model/churn1/instance/x/3/model_inst.pkl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stanmo_data/model/churn1/instance/x/4/model_inst.pkl" afterPath="$PROJECT_DIR$/stanmo/model/churn1/instance/x/4/model_inst.pkl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stanmo_data/model/churn1/instance/x/5/model_inst.pkl" afterPath="$PROJECT_DIR$/stanmo/model/churn1/instance/x/5/model_inst.pkl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stanmo_data/model/churn1/spec/_churn_source.json" afterPath="$PROJECT_DIR$/stanmo/model/churn1/spec/_churn_source.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stanmo_data/model/churn1/spec/_churn_source.json.with.comment.txt" afterPath="$PROJECT_DIR$/stanmo/model/churn1/spec/_churn_source.json.with.comment.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stanmo_data/model/churn1/spec/churn_source.json.backup.original" afterPath="$PROJECT_DIR$/stanmo/model/churn1/spec/churn_source.json.backup.original" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stanmo_data/model/churn1/spec/mining_model.json" afterPath="$PROJECT_DIR$/stanmo/model/churn1/spec/mining_model.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stanmo_data/model/churn2/instance/1/model_inst.pkl" afterPath="$PROJECT_DIR$/stanmo/model/churn2/instance/1/model_inst.pkl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stanmo_data/model/churn2/spec/mining_model.json" afterPath="$PROJECT_DIR$/stanmo/model/churn2/spec/mining_model.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stanmo_data/model/churn3/spec/mining_model.json" afterPath="$PROJECT_DIR$/stanmo/model/churn3/spec/mining_model.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stanmo_data/model/churn4/instance/1/model_inst.pkl" afterPath="$PROJECT_DIR$/stanmo/model/churn4/instance/1/model_inst.pkl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stanmo_data/model/churn4/spec/mining_model.json" afterPath="$PROJECT_DIR$/stanmo/model/churn4/spec/mining_model.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stanmo_data/spec/crabrec/datasets/tests/__init__.py" afterPath="$PROJECT_DIR$/stanmo/requirements.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stanmo_data/stanmo_sqlite.db" afterPath="$PROJECT_DIR$/stanmo/stanmo_sqlite.db" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stanmo_data/test/churn_3.json" afterPath="$PROJECT_DIR$/stanmo_data_to_delete/test/churn_3.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stanmo_data/test/churn_apply.csv" afterPath="$PROJECT_DIR$/stanmo_data_to_delete/test/churn_apply.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stanmo_data/test/churn_apply_result.csv" afterPath="$PROJECT_DIR$/stanmo_data_to_delete/test/churn_apply_result.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stanmo_data/test/churn_source.csv" afterPath="$PROJECT_DIR$/stanmo_data_to_delete/test/churn_source.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stanmo_data/test/churn_source_aligned-3-rows.csv" afterPath="$PROJECT_DIR$/stanmo_data_to_delete/test/churn_source_aligned-3-rows.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stanmo_data/test/churn_source_aligned.csv" afterPath="$PROJECT_DIR$/stanmo_data_to_delete/test/churn_source_aligned.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stanmo_data/test/test_stanmo.sh" afterPath="$PROJECT_DIR$/stanmo_data_to_delete/test/test_stanmo.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/stanmo.iml" afterPath="$PROJECT_DIR$/.idea/stanmo.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stanmo/__init__.py" afterPath="$PROJECT_DIR$/stanmo/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stanmo/stanmoctl.py" afterPath="$PROJECT_DIR$/stanmo/stanmoctl.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stanmo/test/test_stanmo.py" afterPath="$PROJECT_DIR$/stanmo/test/test_stanmo.py" />
+    </list>
+    <ignored path="stanmo.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="stanmo" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="stanmoctl.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stanmo/stanmoctl.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="136" column="22" selection-start-line="136" selection-start-column="22" selection-end-line="136" selection-end-column="22" />
+              <folding>
+                <element signature="e#1507#1532#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="churnmodelspec.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stanmo/spec/churn/churnmodelspec.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="115" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="churn_source.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/stanmo/spec/churn/churn_source.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.022781774">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stanmoapp.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stanmo/app/stanmoapp.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="46" column="7" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="churnmodelflask.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stanmo/spec/churn/churnmodelflask.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stanmo/app/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dbmodel.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stanmo/app/dbmodel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="28" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="basemodelspec.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stanmo/app/basemodelspec.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="199" column="30" selection-start-line="199" selection-start-column="30" selection-end-line="199" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/miningmodel/miningmodelinst.py" />
+        <option value="$PROJECT_DIR$/miningmodel/__init__.py" />
+        <option value="$PROJECT_DIR$/miningmodel/dbmodel.py" />
+        <option value="$PROJECT_DIR$/miningmodel/modeltemplate.py" />
+        <option value="$PROJECT_DIR$/miningmodel/modelspec.py" />
+        <option value="$PROJECT_DIR$/miningmodel/testing.py" />
+        <option value="$PROJECT_DIR$/miningmodel/common.py" />
+        <option value="$PROJECT_DIR$/miningmodel/dataframe.py" />
+        <option value="$PROJECT_DIR$/miningmodel/churnmodelspec.py" />
+        <option value="$PROJECT_DIR$/miningmodel/basemodelspec.py" />
+        <option value="$PROJECT_DIR$/miningmodel/stanmoapp.py" />
+        <option value="$PROJECT_DIR$/miningmodel/stanmo.py" />
+        <option value="$PROJECT_DIR$/stanmo/tests/test_stanmo.py" />
+        <option value="$PROJECT_DIR$/stanmo/churnmodelspec.py" />
+        <option value="$PROJECT_DIR$/stanmo/model/__init__.py" />
+        <option value="$PROJECT_DIR$/stanmo/test/__init__.py" />
+        <option value="$PROJECT_DIR$/stanmo/stanmo.py" />
+        <option value="$PROJECT_DIR$/stanmo/model/recommender.py" />
+        <option value="$PROJECT_DIR$/stanmo/model/crabrec/datasets/base1.py" />
+        <option value="$PROJECT_DIR$/stanmo/model/crabrec/base.py" />
+        <option value="$PROJECT_DIR$/stanmo/model/churnmodelspec.py" />
+        <option value="$PROJECT_DIR$/stanmo/model/crabrec/base1.py" />
+        <option value="$PROJECT_DIR$/stanmo/base/common.py" />
+        <option value="$PROJECT_DIR$/stanmo/dbmodel.py" />
+        <option value="$PROJECT_DIR$/stanmo_data/spec/churn/churnmodelspec.py" />
+        <option value="$PROJECT_DIR$/stanmo/base/basemodelspec.py" />
+        <option value="$PROJECT_DIR$/stanmo_data/spec/churn/churnmodelflask.py" />
+        <option value="$PROJECT_DIR$/stanmo/test/test_stanmo.py" />
+        <option value="$PROJECT_DIR$/stanmo/__init__.py" />
+        <option value="$PROJECT_DIR$/stanmo/base/dbmodel.py" />
+        <option value="$PROJECT_DIR$/stanmo/base/stanmoapp.py" />
+        <option value="$PROJECT_DIR$/stanmo/base/base.py" />
+        <option value="$PROJECT_DIR$/stanmo/base/__init__.py" />
+        <option value="$PROJECT_DIR$/stanmo/app/__init__.py" />
+        <option value="$PROJECT_DIR$/stanmo/config/stanmo.cfg" />
+        <option value="$PROJECT_DIR$/stanmo/app/dbmodel.py" />
+        <option value="$PROJECT_DIR$/stanmo/spec/churn/__init__.py" />
+        <option value="$PROJECT_DIR$/stanmo/requirements.txt" />
+        <option value="D:/Anaconda2/Lib/pkgutil.py" />
+        <option value="$PROJECT_DIR$/stanmo/setup.py" />
+        <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/stanmo/stanmoctl.py" />
+        <option value="$PROJECT_DIR$/stanmo/app/basemodelspec.py" />
+        <option value="$PROJECT_DIR$/stanmo/spec/churn/churnmodelflask.py" />
+        <option value="$PROJECT_DIR$/stanmo/app/config.py" />
+        <option value="$PROJECT_DIR$/stanmo/app/stanmoapp.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-4" />
+    <option name="y" value="-4" />
+    <option name="width" value="1688" />
+    <option name="height" value="1006" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stanmo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stanmo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stanmo_proj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stanmo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stanmo_proj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stanmo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stanmo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stanmo_proj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stanmo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stanmo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stanmo_proj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stanmo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="churn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stanmo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stanmo_proj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stanmo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/stanmo/test" />
+    <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.python" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myIpythonEnabled" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\qduan\Stanmo\git\bitbucket\src\stanmo\miningmodel" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\qduan\Stanmo\git\bitbucket\src\stanmo_proj" />
+      <recent name="C:\qduan\Stanmo\git\bitbucket\src\stanmo_proj\stanmo" />
+      <recent name="C:\qduan\Stanmo\git\bitbucket\src\stanmo_proj\stanmo\app" />
+      <recent name="C:\qduan\Stanmo\git\bitbucket\src\stanmo_proj\stanmo\base" />
+      <recent name="C:\qduan\Stanmo\git\bitbucket\src\stanmo\stanmo\model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.stanmo run">
+    <configuration default="false" name="test_stanmo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stanmo/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="stanmo" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stanmo/test/test_stanmo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="churnmodelflask" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stanmo/spec/churn" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="stanmo" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stanmo/spec/churn/churnmodelflask.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest TestStanmo.test_predict" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stanmo/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="stanmo" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stanmo/test/test_stanmo.py" />
+      <option name="CLASS_NAME" value="TestChurnMiningModel" />
+      <option name="METHOD_NAME" value="test_predict" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="stanmo" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="stanmo" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="stanmo" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="stanmo" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="stanmo" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="stanmo" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="stanmo fit" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="PYTHONPATH" value="C:\qduan\Stanmo\git\bitbucket\src\stanmo_proj" />
+        <env name="PYCHARM_HOSTED" value="1" />
+        <env name="PYTHONIOENCODING" value="GBK" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="stanmo" />
+      <option name="SCRIPT_NAME" value="C:\qduan\Stanmo\git\bitbucket\src\stanmo_proj\stanmo\stanmoctl.py" />
+      <option name="PARAMETERS" value="fit churn4 --input_file=C:\qduan\Stanmo\git\bitbucket\src\stanmo_proj\stanmo_data_to_delete\test\churn_source.csv --instance=2" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="stanmo create" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="PYTHONPATH" value="C:\qduan\Stanmo\git\bitbucket\src\stanmo_proj" />
+        <env name="PYCHARM_HOSTED" value="1" />
+        <env name="PYTHONIOENCODING" value="GBK" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="stanmo" />
+      <option name="SCRIPT_NAME" value="C:\qduan\Stanmo\git\bitbucket\src\stanmo_proj\stanmo\stanmoctl.py" />
+      <option name="PARAMETERS" value="create churn4 --spec=churn.ChurnMiningModel" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="stanmo fit (crab)" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="PYTHONPATH" value="C:\qduan\Stanmo\git\bitbucket\src\stanmo_proj" />
+        <env name="PYCHARM_HOSTED" value="1" />
+        <env name="PYTHONIOENCODING" value="GBK" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="stanmo" />
+      <option name="SCRIPT_NAME" value="C:\qduan\Stanmo\git\bitbucket\src\stanmo_proj\stanmo\stanmoctl.py" />
+      <option name="PARAMETERS" value="fit churnmodelspec.ChurnMiningModel --input_file=C:\temp\stanmo\test\churn_source.csv --instance=1" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="stanmo list" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="stanmo" />
+      <option name="SCRIPT_NAME" value="C:\qduan\Stanmo\git\bitbucket\src\stanmo_proj\stanmo\stanmoctl.py" />
+      <option name="PARAMETERS" value="list models" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="stanmo predict" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="PYTHONPATH" value="C:\qduan\Stanmo\git\bitbucket\src\stanmo_proj" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stanmo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="stanmo" />
+      <option name="SCRIPT_NAME" value="C:\qduan\Stanmo\git\bitbucket\src\stanmo_proj\stanmo\stanmoctl.py" />
+      <option name="PARAMETERS" value="predict churn4 --input=C:\qduan\Stanmo\git\bitbucket\src\stanmo_proj\stanmo_data_to_delete\test\churn_apply.csv --output=C:\qduan\Stanmo\git\bitbucket\src\stanmo_proj\stanmo_data_to_delete\test\churn_apply_result.csv" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="stanmo run" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stanmo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="stanmo" />
+      <option name="SCRIPT_NAME" value="C:\qduan\Stanmo\git\bitbucket\src\stanmo_proj\stanmo\stanmoctl.py" />
+      <option name="PARAMETERS" value="run churn4 --port=5011" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="stanmo show" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stanmo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="stanmo" />
+      <option name="SCRIPT_NAME" value="C:\qduan\Stanmo\git\bitbucket\src\stanmo_proj\stanmo\stanmoctl.py" />
+      <option name="PARAMETERS" value="show churn1  --port=5011" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest TestStanmo.test_list_model" type="tests" factoryName="Unittests" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stanmo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="stanmo" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stanmo/test/test_stanmo.py" />
+      <option name="CLASS_NAME" value="TestStanmo" />
+      <option name="METHOD_NAME" value="test_list_model" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest All" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONPATH" value="C:\qduan\Stanmo\git\bitbucket\src\stanmo_proj" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="stanmo" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stanmo/test/test_stanmo.py" />
+      <option name="CLASS_NAME" value="TestStanmo" />
+      <option name="METHOD_NAME" value="test_list_model" />
+      <option name="FOLDER_NAME" value="$PROJECT_DIR$/stanmo/test" />
+      <option name="TEST_TYPE" value="TEST_FOLDER" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <list size="12">
+      <item index="0" class="java.lang.String" itemvalue="Python.stanmo fit" />
+      <item index="1" class="java.lang.String" itemvalue="Python.stanmo create" />
+      <item index="2" class="java.lang.String" itemvalue="Python.stanmo fit (crab)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.stanmo list" />
+      <item index="4" class="java.lang.String" itemvalue="Python.stanmo predict" />
+      <item index="5" class="java.lang.String" itemvalue="Python.stanmo run" />
+      <item index="6" class="java.lang.String" itemvalue="Python.stanmo show" />
+      <item index="7" class="java.lang.String" itemvalue="Python tests.Unittest TestStanmo.test_list_model" />
+      <item index="8" class="java.lang.String" itemvalue="Python tests.Unittest All" />
+      <item index="9" class="java.lang.String" itemvalue="Python.test_stanmo" />
+      <item index="10" class="java.lang.String" itemvalue="Python.churnmodelflask" />
+      <item index="11" class="java.lang.String" itemvalue="Python tests.Unittest TestStanmo.test_predict" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.churnmodelflask" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest TestStanmo.test_predict" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test_stanmo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\duan\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b3319fd1-1706-4d9c-ac1b-ee06d31e682f" name="Default" comment="" />
+      <created>1439298126000</created>
+      <option name="number" value="Default" />
+      <updated>1439298126000</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittest_All - 2015.12.20 at 22h 48m 52s.xml">
+      <configuration name="Unittest All" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_All - 2015.12.20 at 22h 54m 20s.xml">
+      <configuration name="Unittest All" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_All - 2015.12.20 at 22h 55m 44s.xml">
+      <configuration name="Unittest All" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-4" y="-4" width="1688" height="1006" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3604581" sideWeight="0.65642995" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31537244" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3926868" sideWeight="0.5026022" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280507" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20494273" sideWeight="0.65834934" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24981412" sideWeight="0.34165066" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38879737" sideWeight="0.49739778" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24924472" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43898574" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42261252" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/miningmodel/churnmodelspec.py</url>
+          <line>175</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/miningmodel/basemodelspec.py</url>
+          <line>71</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/stanmo/app/basemodelspec.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/stanmo/app/basemodelspec.py</url>
+          <line>355</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://C:/Anaconda27/Lib/site-packages/flask/helpers.py</url>
+          <line>679</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://C:/Anaconda27/Lib/site-packages/flask/app.py</url>
+          <line>621</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://D:/Anaconda2/Lib/site-packages/stanmo-0.1-py2.7.egg/stanmo/spec/churn/churnmodelspec.py</url>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="157" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="tests">
+        <watch expression="curr_sdf.target_column" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/stanmo/spec/churn/churnmodelflask.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="79" column="28" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/app/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/app/dbmodel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/app/basemodelspec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="318" column="0" selection-start-line="318" selection-start-column="0" selection-end-line="318" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/spec/churn/churnmodelspec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="183" column="0" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm40/system/python_stubs/-1846066713/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33271718">
+          <caret line="598" column="4" selection-start-line="598" selection-start-column="4" selection-end-line="598" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/spec/crabrec/metrics/pairwise.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="171" column="5" selection-start-line="171" selection-start-column="5" selection-end-line="171" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/test/test_stanmo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/model/churn4/spec/mining_model.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/spec/churn/churn_result.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/spec/crabrec/tests/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/spec/crabrec/tests/test_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/spec/crabrec/utils/extmath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/spec/crabrec/utils/testing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/spec/crabrec/utils/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/model/churn1/data/churn_result.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/model/churn1/spec/mining_model.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/model/churn1/spec/_churn_source.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/model/churn1/spec/churn_source.json.backup.original">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/model/churn1/spec/_churn_source.json.with.comment.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/model/churn1/instance/1/model_inst.pkl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/model/churn1/instance/x/2/model_inst.pkl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/model/churn1/instance/x/3/model_inst.pkl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/model/churn1/instance/x/4/model_inst.pkl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/model/churn1/instance/x/5/model_inst.pkl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/data/splits/movielens100k.data.sorted">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/data/sample_songs.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/data/sample_movies.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/data/movielens100k.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/data/movielens100k.item">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/app/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/model/churn3/spec/mining_model.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/config/stanmo to delete soon.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33827892">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/config/model_list.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="35" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydev_monkey_qt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.66172105">
+          <caret line="71" column="4" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/spec/churn/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/spec/crabrec/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda2/Lib/logging/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="328" column="0" selection-start-line="328" selection-start-column="0" selection-end-line="328" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda2/Lib/pkgutil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5578635">
+          <caret line="478" column="15" selection-start-line="478" selection-start-column="15" selection-end-line="478" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.428571">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/log/stanmo.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.76809955">
+          <caret line="976" column="32" selection-start-line="976" selection-start-column="32" selection-end-line="976" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/app/dbmodel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/app/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/stanmoctl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="136" column="22" selection-start-line="136" selection-start-column="22" selection-end-line="136" selection-end-column="22" />
+          <folding>
+            <element signature="e#1507#1532#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/app/basemodelspec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="199" column="30" selection-start-line="199" selection-start-column="30" selection-end-line="199" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/spec/churn/churnmodelflask.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/app/stanmoapp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="7" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/spec/churn/churnmodelspec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="115" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/spec/churn/churn_source.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.022781774">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

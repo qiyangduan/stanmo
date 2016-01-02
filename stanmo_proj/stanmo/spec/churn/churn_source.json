@@ -1,0 +1,1 @@
+{"source_name":"churn_source","apply_name":"churn_apply","column_name_types":{"_account_tenure_days":"numerical","_customer_id":"categorical","_churn_flag":"categorical","_minutes_of_minutes_7day":"numerical"},"target_column":"_churn_flag","pk_column":"_customer_id"}

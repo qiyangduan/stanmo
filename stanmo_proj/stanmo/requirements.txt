@@ -1,0 +1,6 @@
+simplejson
+flask
+docopt
+pandas
+sklearn
+scipy
