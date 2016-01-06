@@ -1,1 +1,0 @@
-{"name":"churn_source","column_name_types":[["account_tenure_days","numerical"],["cust_id","categorical"],["churn_flag","categorical"],["minutes_of_minutes_7day","numerical"]],"target_column":"churn_flag","pk_column":"cust_id"}

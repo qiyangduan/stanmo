@@ -1,1 +1,0 @@
-{"input_dataframe_names": ["churn_source"], "name": "churn_mining_model",  "model_instances": {"1": "trained", "3": "trained", "2": "trained", "5": "trained", "4": "trained"}, "champion_instance": "1", "current_instance_id": -1, "last_modify_date": "2015-11-07 13:20:05", "output_dataframe_names": ["churn_result"]}

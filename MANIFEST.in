@@ -1,0 +1,3 @@
+include stanmo/data *
+include stanmo/log *
+recursive-include stanmo/spec/churn *

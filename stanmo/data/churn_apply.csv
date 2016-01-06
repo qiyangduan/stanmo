@@ -1,0 +1,4 @@
+_state_code,_tenure_days,_zip_code,_customer_id,_international_roaming_flag,_pay_tv_flag,_sms_message_count_1m,_call_minute_1m,_call_count_1m,_total_revenue_1m,_peak_time_voice_call_minute_1m,_peak_time_voice_call_count_7day,_peak_time_voice_charge_7day,_off_peak_time_voice_call_minute_7day,_off_peak_time_voice_call_count_7day,_off_peak_time_voice_charge_7day,_international_voice_call_minute_7day,_international_voice_call_count_7day,_international_voice_charge_7day,_service_center_call_count_7day,_churn_flag
+AL,85,408,411-4232,no,no,0,127.900000,107,21.740000,271.200000,124,23.050000,202.200000,76,9.100000,12.500000,5,3.380000,0,0
+AL,144,415,373-3251,no,no,0,177.500000,93,30.180000,287.400000,75,24.430000,180.500000,118,8.120000,11.900000,3,3.210000,2,0
+ME,75,408,343-1965,yes,no,0,211.300000,61,35.920000,105.600000,119,8.980000,175.900000,63,7.920000,9.700000,4,2.620000,4,1

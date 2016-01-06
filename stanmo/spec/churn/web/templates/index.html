@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Model Statistics</title>
+  <link rel="stylesheet" href="/static/lib/css//bootstrap.min.css">
+  <link rel="stylesheet" href="/static/lib/css/keen-dashboards.css">
+  <link rel="stylesheet" href="/static/css/custom.css">
+  <link href="/static/lib/css/nv.d3.css" rel="stylesheet" type="text/css">
+  <style>
+        ul {list-style: none; margin: 1; padding: 1;}
+        li {display: inline-block; min-width: 80px; padding: 10px; background-color: #eee; margin: 0;} 
+        .nvd3 .nv-axis.nv-x path.domain {  stroke-opacity: 0;}
+   </style>
+</head>
+<body class="application">
+  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="./">Churn Model Statistics</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+
+    <div class="row">
+
+      <div class="col-sm-4">
+        <div class="row"> 
+          <!-- Time Chart --> 
+          <div class="col-sm-12">
+            <div class="chart-wrapper">
+              <div class="chart-title">
+                Model Summary
+              </div>
+              <div class="chart-stage">
+                <div id="time-chart"></div> 
+                <div class="row content">
+                    <div class="col-lg-offset-0.5 control-group ">
+                      
+                        <div class="controls">
+                        <p>Model Name: <label for="model_instance_name"> --- </label>  (Churn Prediction)
+                            
+                        </p>
+                        </div>
+
+                        <div class="controls"> <p> 
+                        # of Model Instances: <strong  id="nbr_of_inst_strong"></strong>
+                        </p>
+                        </div>
+
+                        <div class="controls">
+                        <p> Description:  Use The input into churn prediciton model. A single flat table with cust_id as PK, churn_flag as target and others as input attributes. </p>	
+                        
+                        </div>
+                        
+                        <hr>
+                        
+                        <div class="controls">
+                        <p id="input_attributes_p"><label for="owner_name">Usage:</label> 
+                        </p> 
+                        </div>
+
+                        <!--div class="controls">
+                        <p><label for="Create Date">Oputput Attributes:</label> 
+                                <ul id="input_ul_1">      </ul>  
+                              <ul id="input_ul_2">         </ul>
+                            </p> 
+                        </div-->
+
+
+                        
+
+                    </div>
+                </div>             
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dashboard -->  
+      <div class="col-sm-8">
+              <div class="row">
+      <!-- Metric 1 -->
+      <div class="col-sm-6">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+            Total Number of Feedbacks (/Predictions)
+          </div>
+          <div class="chart-stage">
+            <div id="number-projects-nd"> <strong   id="nbr_of_feedback"></strong> <font size="6" id="nbr_of_prediction"></font></div>
+          </div>
+        </div>
+      </div>
+      <!-- Metric 1 -->
+
+      <!-- Metric 2 -->
+      <div class="col-sm-6">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+            Overall Precision
+          </div>
+          <div class="chart-stage">
+            <div id="total-donations-nd"> <strong   id="overall_precision_strong"></strong> </div>
+          </div>
+        </div>
+      </div>
+      <!-- Metric 3 -->
+      <div class="col-sm-6">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+            Prediction History
+          </div>
+          <div  class='with-transitions'>
+            <div id="prediction-history"><canvas id="prediction_history_canvas" height="450" width="600"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Metric 4 -->
+      <div class="col-sm-6">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+            ROC over Historical Predictions
+          </div>
+          <div class="chart-stage">
+            <div id="cumulative-gain-chart">   <svg></svg>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+          </div>
+    </div>
+      </div>
+  </div>
+
+    <hr>
+    <p class="small text-muted">Built with &#9829; by <a href="https://keen.io">Keen IO</a></p>
+
+  </div>
+
+  <script src="/static/lib/js/jquery.min.js"></script>
+  <script src="/static/lib/js/bootstrap.min.js"></script>
+  <script src="/static/lib/js/crossfilter.js"></script>
+  <script src="/static/lib/js/d3.js"></script>
+  <script src="/static/lib/js/queue.js"></script>
+  <script src="/static/lib/js/nv.d3.js"></script>
+  <script src="/static/lib/js/Chart.js"></script>
+  <script src='/static/js/graphs.js' type='text/javascript'></script>
+</body>
+</html>

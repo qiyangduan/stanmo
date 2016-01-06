@@ -1,3 +1,0 @@
-[console_scripts]
-stanmo = stanmo.stanmoctl:main
-
