@@ -21,11 +21,11 @@ setup(name='stanmo',
           'pandas','scikit-learn','scipy'
       ],
       test_suite='nose.collector',
-      tests_require=['nose', 'nose-cover3', 'simplejson',
+      tests_require=['nose', 'nose-cover3', 'simplejson','sqlalchemy',
                     'flask',
                     'docopt',
                     'pandas',
-                    'sklearn',
+                    'scikit-learn',
                     'scipy'],
       entry_points={
           'console_scripts': ['stanmo=stanmo.stanmoctl:main'],
