@@ -28,6 +28,7 @@ Installation
 ------------
 Since the business models normally require machine learning packages like scikit-learn, numpy, scipy, you have to install those packages first. I recommend installing `anaconda<https://www.continuum.io/downloads>` to install all those  packages in one go. After you installed anaconda, you may want to create an virtual environment by conda command::
     # conda create --name conda1  simplejson  flask  docopt  pandas  scikit-learn  scipy sqlalchemy requests
+    # source activate conda1
 
 Currently stanmo support only python 2.7 only. So you should use anaconda 2 distribution. I do not have enough time to port onto python 3 yet. I may do that later. Nevertheless, I hate Guido's reckless act to make python 3 incompatible to python 2. At least I did not see any benefit of using python 3 over python 2.7.x.
 
@@ -36,7 +37,7 @@ Once you  have anaconda ready, you can install the stanmo package by PIP install
     # pip install stanmo
 
 
-I tried to package this by conda, but did not find a proper way to do it. Since this stanmo project is a pure Python project, so far, PIP seems work ok. 
+Note: To make this more conda user friendly, I tried to package it by conda. But I failed to find a proper way to do it. Since this stanmo project is a pure Python project, so far, PIP seems work ok on top of anaconda installation.
 
 Usage
 -----
