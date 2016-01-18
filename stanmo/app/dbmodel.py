@@ -1,9 +1,10 @@
+import os
+import logging
+
 from sqlalchemy import create_engine
 from sqlalchemy import Column, Integer, String, DateTime, func
 from sqlalchemy.ext.declarative import declarative_base
 from .config import STANMO_CONFIG_DICT
-import os
-import logging
 
 # http://docs.sqlalchemy.org/en/rel_1_0/orm/tutorial.html#adding-new-objects
 SABase = declarative_base()

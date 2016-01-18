@@ -25,8 +25,8 @@ OUTPUT_DF_NAME = 'churn_result'
 CATEGORICAL_ATTRIBUTE_CADINALITY_THRESHOLD = 8
 
 
-class ChurnMiningModelInstance (MiningModelInstance):
-    pass
+#class ChurnMiningModelInstance (MiningModelInstance):
+#    pass
 
 
 class ChurnInputDataEncoder(BaseInputDataEncoder):
@@ -310,6 +310,10 @@ class ChurnMiningModel(BaseMiningModel):
         result_df = self.predict_df(input_df)
         return result_df.to_json(orient='records') # simplejson.dumps(result_dict) #"duan" # simplejson.loads('["duan", "qiyang"]')
 
+    def fit(self, input_file = None):
+        return self.fit_csv(input_file = input_file)
+    def predict(self, input_file = None, output_file = None):
+        return self.predict_csv(input_file = input_file, output_file = output_file)
 
     def show(self, port = None):
         if port is None:
