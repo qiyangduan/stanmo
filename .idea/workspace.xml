@@ -2,75 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3319fd1-1706-4d9c-ac1b-ee06d31e682f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stanmo/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stanmo/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stanmo/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stanmo/.idea/stanmo.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stanmo/.idea/workspace.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/base1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/crabrec_init.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/datasets/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/datasets/base1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/datasets/book_crossing.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/datasets/data/movielens100k.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/datasets/data/movielens100k.item" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/datasets/data/sample_movies.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/datasets/data/sample_songs.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/datasets/descr/book-crossing.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/datasets/descr/movielens100k.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/datasets/descr/sample_movies.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/datasets/descr/sample_songs.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/datasets/tests/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/datasets/tests/data/BX-Book-Ratings.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/datasets/tests/data/BX-Books.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/datasets/tests/test_base.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/metrics/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/metrics/base.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/metrics/classes.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/metrics/cross_validation.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/metrics/metrics.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/metrics/pairwise.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/metrics/sampling.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/metrics/tests/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/metrics/tests/test_classes.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/metrics/tests/test_cross_validation.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/metrics/tests/test_metrics.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/metrics/tests/test_pairwise.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/models/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/models/base1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/models/classes.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/models/tests/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/models/tests/test_models.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/models/utils.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/recommenders/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/recommenders/base.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/recommenders/knn/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/recommenders/knn/base.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/recommenders/knn/classes.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/recommenders/knn/item_strategies.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/recommenders/knn/neighborhood_strategies.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/recommenders/knn/tests/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/recommenders/knn/tests/test_classes.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/recommenders/knn/tests/test_item_strategies.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/recommenders/knn/tests/test_neighborhood_strategies.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/recommenders/svd/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/recommenders/svd/base.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/recommenders/svd/classes.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/recommenders/svd/tests/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/recommenders/svd/tests/test_classes.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/similarities/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/similarities/base.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/similarities/basic_similarities.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/similarities/tests/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/similarities/tests/test_base.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/similarities/tests/test_basic_similarities.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/tests/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/tests/test_base.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/utils/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/utils/extmath.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/utils/testing.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stanmo/app/dbmodel.py" afterPath="$PROJECT_DIR$/stanmo/app/dbmodel.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stanmo/spec/crabrec/crabrecflask.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stanmo/spec/crabrec/crabrecmodel.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stanmo/spec/crabrec/test/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stanmo/spec/crabrec/test/test_crabrecmodel.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/scikits/crab/tests/crab_tutorial_test.py" afterPath="$PROJECT_DIR$/stanmo/spec/crabrec/test/crab_tutorial_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stanmo/stanmo_sqlite.db" afterPath="$PROJECT_DIR$/stanmo/stanmo_sqlite.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/stanmo.iml" afterPath="$PROJECT_DIR$/.idea/stanmo.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stanmo/app/stanmoapp.py" afterPath="$PROJECT_DIR$/stanmo/app/stanmoapp.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stanmo/model/churn4/instance/2/model_inst.pkl" afterPath="$PROJECT_DIR$/stanmo/model/churn4/instance/2/model_inst.pkl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stanmo/model/churn4/spec/mining_model.json" afterPath="$PROJECT_DIR$/stanmo/model/churn4/spec/mining_model.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stanmo/requirements.txt" afterPath="$PROJECT_DIR$/stanmo/requirements.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stanmo/spec/churn/__init__.py" afterPath="$PROJECT_DIR$/stanmo/spec/churn/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stanmo/spec/churn/churnmodelspec.py" afterPath="$PROJECT_DIR$/stanmo/spec/churn/churnmodelspec.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stanmo/spec/crabrec/__init__.py" afterPath="$PROJECT_DIR$/stanmo/spec/crabrec/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stanmo/stanmoctl.py" afterPath="$PROJECT_DIR$/stanmo/stanmoctl.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stanmo/test/test_stanmo.py" afterPath="$PROJECT_DIR$/stanmo/test/test_stanmo.py" />
     </list>
     <ignored path="stanmo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -91,53 +40,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="stanmoctl.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stanmo/stanmoctl.py">
+      <file leaf-file-name="crab_tutorial_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stanmo/spec/crabrec/test/crab_tutorial_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.25">
-              <caret line="123" column="39" selection-start-line="123" selection-start-column="39" selection-end-line="123" selection-end-column="39" />
-              <folding>
-                <element signature="e#1359#1384#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stanmo/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state vertical-scroll-proportion="-7.464286">
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="churnmodelflask.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stanmo/spec/churn/churnmodelflask.py">
+      <file leaf-file-name="crabrecmodel.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/stanmo/spec/crabrec/crabrecmodel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.178572">
-              <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dbmodel.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stanmo/app/dbmodel.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="churnmodelspec.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stanmo/spec/churn/churnmodelspec.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.535714">
-              <caret line="198" column="37" selection-start-line="198" selection-start-column="37" selection-end-line="198" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.45510834">
+              <caret line="180" column="24" selection-start-line="180" selection-start-column="24" selection-end-line="180" selection-end-column="24" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
               </folding>
@@ -145,11 +62,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="crab_tutorial_test.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/stanmo/spec/crabrec/scikits/crab/tests/crab_tutorial_test.py">
+      <file leaf-file-name="dbmodel.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stanmo/app/dbmodel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7916667">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state vertical-scroll-proportion="-1.9107143">
+              <caret line="23" column="91" selection-start-line="23" selection-start-column="88" selection-end-line="23" selection-end-column="91" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stanmoctl.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stanmo/stanmoctl.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.642857">
+              <caret line="161" column="0" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
+              <folding>
+                <element signature="e#1359#1384#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="churnmodelspec.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stanmo/spec/churn/churnmodelspec.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="301" column="54" selection-start-line="301" selection-start-column="54" selection-end-line="301" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -158,20 +99,8 @@
       <file leaf-file-name="basemodelspec.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stanmo/app/basemodelspec.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.857143">
-              <caret line="54" column="43" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stanmoapp.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stanmo/app/stanmoapp.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.892857">
-              <caret line="126" column="8" selection-start-line="126" selection-start-column="8" selection-end-line="126" selection-end-column="8" />
+            <state vertical-scroll-proportion="-6.607143">
+              <caret line="87" column="8" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -180,18 +109,8 @@
       <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stanmo/spec/churn/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.428571">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stanmo/spec/crabrec/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.071429">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state vertical-scroll-proportion="-3.392857">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -212,10 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/miningmodel/churnmodelspec.py" />
-        <option value="$PROJECT_DIR$/miningmodel/basemodelspec.py" />
-        <option value="$PROJECT_DIR$/miningmodel/stanmoapp.py" />
-        <option value="$PROJECT_DIR$/miningmodel/stanmo.py" />
         <option value="$PROJECT_DIR$/stanmo/tests/test_stanmo.py" />
         <option value="$PROJECT_DIR$/stanmo/churnmodelspec.py" />
         <option value="$PROJECT_DIR$/stanmo/model/__init__.py" />
@@ -242,10 +157,8 @@
         <option value="$PROJECT_DIR$/stanmo/requirements.txt" />
         <option value="D:/Anaconda2/Lib/pkgutil.py" />
         <option value="$PROJECT_DIR$/stanmo/setup.py" />
-        <option value="$PROJECT_DIR$/stanmo/spec/churn/__init__.py" />
         <option value="$PROJECT_DIR$/stanmo/spec/__init__.py" />
         <option value="$PROJECT_DIR$/stanmo/spec/crabrec_init.py" />
-        <option value="$PROJECT_DIR$/stanmo/spec/crabrec/__init__.py" />
         <option value="$PROJECT_DIR$/stanmo/model/churn4/spec/mining_model.json" />
         <option value="$PROJECT_DIR$/stanmo/model/churn3/spec/mining_model.json" />
         <option value="$PROJECT_DIR$/stanmo/log/stanmo.log" />
@@ -254,15 +167,21 @@
         <option value="$PROJECT_DIR$/stanmo/data/churn_apply_result.csv" />
         <option value="$PROJECT_DIR$/stanmo/data/churn_apply.csv" />
         <option value="$PROJECT_DIR$/stanmo/data/churn_source.csv" />
-        <option value="$PROJECT_DIR$/stanmo/stanmoctl.py" />
-        <option value="$PROJECT_DIR$/stanmo/app/stanmoapp.py" />
         <option value="$PROJECT_DIR$/stanmo/app/basemodelspec.py" />
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/stanmo/spec/churn/churnmodelflask.py" />
         <option value="$PROJECT_DIR$/README.rst" />
-        <option value="$PROJECT_DIR$/stanmo/app/dbmodel.py" />
-        <option value="$PROJECT_DIR$/stanmo/spec/churn/churnmodelspec.py" />
         <option value="$PROJECT_DIR$/stanmo/spec/crabrec/scikits/crab/tests/crab_tutorial_test.py" />
+        <option value="$PROJECT_DIR$/stanmo/spec/crabrec/crabrecflask.py" />
+        <option value="$PROJECT_DIR$/stanmo/spec/crabrec/crabrec.py" />
+        <option value="$PROJECT_DIR$/stanmo/spec/churn/churnmodelspec.py" />
+        <option value="$PROJECT_DIR$/stanmo/spec/crabrec/__init__.py" />
+        <option value="$PROJECT_DIR$/stanmo/spec/churn/__init__.py" />
+        <option value="$PROJECT_DIR$/stanmo/app/stanmoapp.py" />
+        <option value="$PROJECT_DIR$/stanmo/stanmoctl.py" />
+        <option value="$PROJECT_DIR$/stanmo/app/dbmodel.py" />
+        <option value="$PROJECT_DIR$/stanmo/spec/crabrec/test/crab_tutorial_test.py" />
+        <option value="$PROJECT_DIR$/stanmo/spec/crabrec/crabrecmodel.py" />
       </list>
     </option>
   </component>
@@ -361,154 +280,39 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crabrec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stanmo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stanmo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stanmo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crabrec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scikits" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stanmo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stanmo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stanmo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crabrec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scikits" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stanmo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stanmo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stanmo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crabrec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scikits" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stanmo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stanmo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stanmo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="churn" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="recentsLimit" value="5" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myIpythonEnabled" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\qduan\Stanmo\git\github\stanmo\stanmo\spec\crabrec\test" />
+      <recent name="C:\qduan\Stanmo\git\bitbucket\src\stanmo\miningmodel" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\qduan\Stanmo\git\github\stanmo\stanmo\spec\crabrec\test" />
       <recent name="C:\qduan\Stanmo\git\github\stanmo\stanmo\spec\crabrec" />
       <recent name="C:\qduan\Stanmo\git\bitbucket\src\stanmo_proj" />
       <recent name="C:\qduan\Stanmo\git\bitbucket\src\stanmo_proj\stanmo" />
       <recent name="C:\qduan\Stanmo\git\bitbucket\src\stanmo_proj\stanmo\app" />
-      <recent name="C:\qduan\Stanmo\git\bitbucket\src\stanmo_proj\stanmo\base" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\qduan\Stanmo\git\bitbucket\src\stanmo\miningmodel" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.stanmo run">
+  <component name="RunManager" selected="Python.crab_tutorial_test">
     <configuration default="false" name="setup sdist" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -539,6 +343,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="stanmo" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stanmo/spec/churn/churnmodelflask.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="crab_tutorial_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="PYTHONPATH" value="C:\qduan\Stanmo\git\github\stanmo\stanmo\spec\crabrec" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stanmo/spec/crabrec" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="stanmo" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stanmo/spec/crabrec/test/crab_tutorial_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -687,14 +509,11 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="stanmo fit" type="PythonConfigurationType" factoryName="Python">
+    <configuration default="false" name="stanmo list specs" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="PYTHONPATH" value="C:\qduan\Stanmo\git\bitbucket\src\stanmo_proj" />
-        <env name="PYCHARM_HOSTED" value="1" />
-        <env name="PYTHONIOENCODING" value="GBK" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -702,48 +521,8 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="stanmo" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../bitbucket/src/stanmo_proj/stanmo/stanmoctl.py" />
-      <option name="PARAMETERS" value="fit churn4 --input_file=C:\qduan\Stanmo\git\bitbucket\src\stanmo_proj\stanmo_data_to_delete\test\churn_source.csv --instance=2" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="stanmo create" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="PYTHONPATH" value="C:\qduan\Stanmo\git\bitbucket\src\stanmo_proj" />
-        <env name="PYCHARM_HOSTED" value="1" />
-        <env name="PYTHONIOENCODING" value="GBK" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="stanmo" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../bitbucket/src/stanmo_proj/stanmo/stanmoctl.py" />
-      <option name="PARAMETERS" value="create churn4 --spec=churn.ChurnMiningModel" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="stanmo fit (crab)" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="PYTHONPATH" value="C:\qduan\Stanmo\git\bitbucket\src\stanmo_proj" />
-        <env name="PYCHARM_HOSTED" value="1" />
-        <env name="PYTHONIOENCODING" value="GBK" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="stanmo" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../bitbucket/src/stanmo_proj/stanmo/stanmoctl.py" />
-      <option name="PARAMETERS" value="fit churnmodelspec.ChurnMiningModel --input_file=C:\temp\stanmo\test\churn_source.csv --instance=1" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stanmo/stanmoctl.py" />
+      <option name="PARAMETERS" value="list specs" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
@@ -764,11 +543,14 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="stanmo list specs" type="PythonConfigurationType" factoryName="Python">
+    <configuration default="false" name="stanmo create" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="PYTHONPATH" value="C:\qduan\Stanmo\git\bitbucket\src\stanmo_proj" />
+        <env name="PYCHARM_HOSTED" value="1" />
+        <env name="PYTHONIOENCODING" value="GBK" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -777,7 +559,27 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="stanmo" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stanmo/stanmoctl.py" />
-      <option name="PARAMETERS" value="list specs" />
+      <option name="PARAMETERS" value="create churn6 --spec=churn.ChurnMiningModel" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="stanmo fit" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="PYTHONPATH" value="C:\qduan\Stanmo\git\bitbucket\src\stanmo_proj" />
+        <env name="PYCHARM_HOSTED" value="1" />
+        <env name="PYTHONIOENCODING" value="GBK" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="stanmo" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stanmo/stanmoctl.py" />
+      <option name="PARAMETERS" value="fit churn6 --input_file=C:\qduan\Stanmo\git\github\stanmo\stanmo\data\churn_source.csv --instance=2" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
@@ -795,7 +597,65 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="stanmo" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stanmo/stanmoctl.py" />
-      <option name="PARAMETERS" value="predict churn4 --input=C:\qduan\Stanmo\git\bitbucket\src\stanmo_proj\stanmo_data_to_delete\test\churn_apply.csv --output=C:\qduan\Stanmo\git\bitbucket\src\stanmo_proj\stanmo_data_to_delete\test\churn_apply_result.csv" />
+      <option name="PARAMETERS" value="predict churn6 --input=C:\qduan\Stanmo\git\github\stanmo\stanmo\data\churn_apply.csv --output=C:\qduan\Stanmo\git\github\stanmo\stanmo\data\churn_apply_result6.csv" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="stanmo create (crab)" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="PYTHONPATH" value="C:\qduan\Stanmo\git\bitbucket\src\stanmo_proj" />
+        <env name="PYCHARM_HOSTED" value="1" />
+        <env name="PYTHONIOENCODING" value="GBK" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="stanmo" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stanmo/stanmoctl.py" />
+      <option name="PARAMETERS" value="create crab1 --spec=crabrec.CrabRecModel" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="stanmo fit (crab)" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONPATH" value="C:\qduan\Stanmo\git\bitbucket\src\stanmo_proj" />
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="PYCHARM_HOSTED" value="1" />
+        <env name="PYTHONIOENCODING" value="GBK" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="stanmo" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stanmo/stanmoctl.py" />
+      <option name="PARAMETERS" value="fit crab1 --input_file=C:\qduan\Stanmo\git\github\stanmo\stanmo\spec\crabrec\scikits\crab\datasets\data\sample_movies.csv,C:\qduan\Stanmo\git\github\stanmo\stanmo\spec\crabrec\scikits\crab\datasets\descr\sample_movies.rst --instance=1" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="stanmo predict (crab)" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONPATH" value="C:\qduan\Stanmo\git\bitbucket\src\stanmo_proj" />
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stanmo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="stanmo" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stanmo/stanmoctl.py" />
+      <option name="PARAMETERS" value="predict crab1 --input=C:\qduan\Stanmo\git\github\stanmo\stanmo\data\crabrec_apply.csv --output=C:\qduan\Stanmo\git\github\stanmo\stanmo\data\crab_apply_result.csv" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
@@ -829,7 +689,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="stanmo" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stanmo/stanmoctl.py" />
-      <option name="PARAMETERS" value="show churn1  --port=5011" />
+      <option name="PARAMETERS" value="show churn4  --port=5011" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
@@ -879,26 +739,30 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <list size="13">
-      <item index="0" class="java.lang.String" itemvalue="Python.stanmo fit" />
-      <item index="1" class="java.lang.String" itemvalue="Python.stanmo create" />
-      <item index="2" class="java.lang.String" itemvalue="Python.stanmo fit (crab)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.stanmo list models" />
-      <item index="4" class="java.lang.String" itemvalue="Python.stanmo list specs" />
-      <item index="5" class="java.lang.String" itemvalue="Python.stanmo predict" />
-      <item index="6" class="java.lang.String" itemvalue="Python.stanmo run" />
-      <item index="7" class="java.lang.String" itemvalue="Python.stanmo show" />
-      <item index="8" class="java.lang.String" itemvalue="Python tests.Unittest TestStanmo.test_list_model" />
-      <item index="9" class="java.lang.String" itemvalue="Python tests.Unittest All" />
+    <list size="16">
+      <item index="0" class="java.lang.String" itemvalue="Python.stanmo list specs" />
+      <item index="1" class="java.lang.String" itemvalue="Python.stanmo list models" />
+      <item index="2" class="java.lang.String" itemvalue="Python.stanmo create" />
+      <item index="3" class="java.lang.String" itemvalue="Python.stanmo fit" />
+      <item index="4" class="java.lang.String" itemvalue="Python.stanmo predict" />
+      <item index="5" class="java.lang.String" itemvalue="Python.stanmo create (crab)" />
+      <item index="6" class="java.lang.String" itemvalue="Python.stanmo fit (crab)" />
+      <item index="7" class="java.lang.String" itemvalue="Python.stanmo predict (crab)" />
+      <item index="8" class="java.lang.String" itemvalue="Python.stanmo run" />
+      <item index="9" class="java.lang.String" itemvalue="Python.stanmo show" />
       <item index="10" class="java.lang.String" itemvalue="Python.setup sdist" />
       <item index="11" class="java.lang.String" itemvalue="Python.churnmodelflask" />
-      <item index="12" class="java.lang.String" itemvalue="Python tests.Unittest TestStanmo.test_predict" />
+      <item index="12" class="java.lang.String" itemvalue="Python.crab_tutorial_test" />
+      <item index="13" class="java.lang.String" itemvalue="Python tests.Unittest TestStanmo.test_list_model" />
+      <item index="14" class="java.lang.String" itemvalue="Python tests.Unittest All" />
+      <item index="15" class="java.lang.String" itemvalue="Python tests.Unittest TestStanmo.test_predict" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.setup sdist" />
-        <item index="1" class="java.lang.String" itemvalue="Python.churnmodelflask" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest TestStanmo.test_predict" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.crab_tutorial_test" />
+        <item index="1" class="java.lang.String" itemvalue="Python.setup sdist" />
+        <item index="2" class="java.lang.String" itemvalue="Python.churnmodelflask" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest TestStanmo.test_predict" />
       </list>
     </recent_temporary>
   </component>
@@ -943,24 +807,24 @@
     <frame x="-4" y="-4" width="1374" height="724" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21784386" sideWeight="0.65642995" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2810409" sideWeight="0.65642995" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31537244" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3926868" sideWeight="0.5026022" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280507" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29888475" sideWeight="0.65834934" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37520662" sideWeight="0.49739778" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22973977" sideWeight="0.65834934" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24981412" sideWeight="0.34165066" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46115702" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.098846786" sideWeight="0.49739778" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24924472" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.042975206" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.042833608" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42069742" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -988,11 +852,6 @@
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/stanmo/app/basemodelspec.py</url>
-          <line>355</line>
-          <option name="timeStamp" value="112" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
           <url>file://C:/Anaconda27/Lib/site-packages/flask/helpers.py</url>
           <line>679</line>
           <option name="timeStamp" value="138" />
@@ -1012,9 +871,24 @@
           <option name="timeStamp" value="163" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/stanmo/spec/crabrec/scikits/crab/tests/crab_tutorial_test.py</url>
+          <url>file://$PROJECT_DIR$/stanmo/spec/crabrec/test/crab_tutorial_test.py</url>
           <line>21</line>
-          <option name="timeStamp" value="164" />
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/stanmo/app/stanmoapp.py</url>
+          <line>203</line>
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/stanmo/spec/crabrec/crabrecmodel.py</url>
+          <line>134</line>
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/stanmo/spec/crabrec/crabrecmodel.py</url>
+          <line>180</line>
+          <option name="timeStamp" value="188" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -1027,7 +901,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="165" />
+      <option name="time" value="189" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="tests">
@@ -1036,24 +910,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/stanmo/app/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stanmo/stanmoctl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="161" column="0" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
-          <folding>
-            <element signature="e#1359#1384#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1066,7 +922,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1099,9 +954,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="199" column="30" selection-start-line="199" selection-start-column="30" selection-end-line="199" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1109,7 +961,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="79" column="28" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1131,9 +982,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="318" column="0" selection-start-line="318" selection-start-column="0" selection-end-line="318" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1155,13 +1003,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stanmo/spec/churn/churn_result.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1275,7 +1116,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1283,101 +1123,172 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/spec/crabrec/scikits/crab/datasets/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm50/system/python_stubs/2129268673/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4304" column="8" selection-start-line="4304" selection-start-column="8" selection-end-line="4304" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/spec/churn/churnmodelflask.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.035714">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/spec/crabrec/crabrecflask.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.090361446">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stanmo/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.10836502">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/spec/churn/churn_result.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/spec/crabrec/test/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/spec/crabrec/test/test_crabrecmodel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07421875">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/spec/crabrec/scikits/crab/recommenders/knn/classes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3611111">
+          <caret line="536" column="0" selection-start-line="536" selection-start-column="0" selection-end-line="536" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/app/stanmoapp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.59876543">
+          <caret line="205" column="84" selection-start-line="205" selection-start-column="84" selection-end-line="205" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda2/Lib/site-packages/pandas/core/index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="1803" column="0" selection-start-line="1803" selection-start-column="0" selection-end-line="1803" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/spec/crabrec/scikits/crab/models/classes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05882353">
+          <caret line="111" column="0" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda2/Lib/site-packages/pandas/core/series.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.71794873">
+          <caret line="2173" column="39" selection-start-line="2173" selection-start-column="39" selection-end-line="2173" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stanmo/app/dbmodel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stanmo/spec/churn/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.428571">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stanmo/spec/crabrec/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.071429">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm50/system/python_stubs/2129268673/__builtin__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33275864">
-          <caret line="2519" column="8" selection-start-line="2519" selection-start-column="8" selection-end-line="2519" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stanmo/stanmoctl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.25">
-          <caret line="123" column="39" selection-start-line="123" selection-start-column="39" selection-end-line="123" selection-end-column="39" />
-          <folding>
-            <element signature="e#1359#1384#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stanmo/spec/churn/churnmodelflask.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.178572">
-          <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stanmo/app/basemodelspec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.857143">
-          <caret line="54" column="43" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
+        <state vertical-scroll-proportion="-1.9107143">
+          <caret line="23" column="91" selection-start-line="23" selection-start-column="88" selection-end-line="23" selection-end-column="91" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stanmo/app/stanmoapp.py">
+    <entry file="file://$PROJECT_DIR$/stanmo/spec/crabrec/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.892857">
-          <caret line="126" column="8" selection-start-line="126" selection-start-column="8" selection-end-line="126" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.4907749">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/spec/churn/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.392857">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/stanmoctl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.642857">
+          <caret line="161" column="0" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
+          <folding>
+            <element signature="e#1359#1384#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stanmo/spec/churn/churnmodelspec.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.535714">
-          <caret line="198" column="37" selection-start-line="198" selection-start-column="37" selection-end-line="198" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="301" column="54" selection-start-line="301" selection-start-column="54" selection-end-line="301" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stanmo/spec/crabrec/scikits/crab/tests/crab_tutorial_test.py">
+    <entry file="file://$PROJECT_DIR$/stanmo/app/basemodelspec.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7916667">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state vertical-scroll-proportion="-6.607143">
+          <caret line="87" column="8" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="39" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/spec/crabrec/test/crab_tutorial_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.464286">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stanmo/spec/crabrec/crabrecmodel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45510834">
+          <caret line="180" column="24" selection-start-line="180" selection-start-column="24" selection-end-line="180" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

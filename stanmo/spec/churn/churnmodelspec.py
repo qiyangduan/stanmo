@@ -187,11 +187,11 @@ class ChurnMiningModel(BaseMiningModel):
         #self.output_dataframe_names = [OUTPUT_DF_NAME] # self._loaded_model.get('output_dataframe_names')
         self.load_dataframes(dataframe_names={'input_df_names':[INPUT_DF_NAME], 'output_df_names':[OUTPUT_DF_NAME]})
 
-    def fit_csv(self,input_files=None, algorithms=None, model_instance_id = None):
-        if input_files is None:
+    def fit_csv(self, input_file=None, algorithms=None, model_instance_id = None):
+        if input_file is None:
             logging.getLogger('stanmo_logger').debug('Please specify the input file for ETL.')
             exit(1)
-        churn_source_filename =  input_files[0]
+        churn_source_filename =  input_file
         self.input_dataframes[INPUT_DF_NAME].from_csv(csv_file=churn_source_filename)
         self.fit_df(input_sdf = self.input_dataframes[INPUT_DF_NAME], algorithms=algorithms, model_instance_id = model_instance_id)
 
@@ -285,11 +285,11 @@ class ChurnMiningModel(BaseMiningModel):
 
         return result_df
 
-    def predict_csv(self, input_files = None, output_filename = None ):
+    def predict_csv(self, input_file = None, output_filename = None ):
         # predict and  apply are treated equally
 
         # Now inspect the uploaded file and check which column to exclude.
-        churn_apply_filename = input_files[0]
+        churn_apply_filename = input_file
         try:
             input_df = pd.read_csv(churn_apply_filename)
             # sdf = StanmoDataFrame(self.stanmoapp, self.model_name, 'churn_source', True)

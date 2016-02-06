@@ -91,7 +91,7 @@ def main():
         model_name = docopt_args["<model_name>"]
         the_model = stanmoapp.load_model(model_name=model_name)
         try:
-            the_model.fit_csv(input_files=[input_file], model_instance_id = model_instance_id)
+            the_model.fit_csv(input_file=input_file, model_instance_id = model_instance_id)
         except StanmoErrorNoInstanceID:
             logging.getLogger('stanmo_logger').error('Can not get more free instance IDs, please specify one (by --instnace=x) to override.')
             print('Can not get more free instance IDs, please specify one to override by --instance=n.')
@@ -120,7 +120,7 @@ def main():
 
         the_model = stanmoapp.load_model(model_name=model_name)
         try:
-            the_model.predict_csv([input_file], output_file)
+            the_model.predict_csv(input_file, output_file)
         except StanmoErrorNoInstanceID:
             logging.getLogger('stanmo_logger').error('Can not get more free instance IDs, please specify one (by --instnace=x) to override.')
             print('Can not get more free instance IDs, please specify one to override by --instance=n.')

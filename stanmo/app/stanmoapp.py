@@ -202,9 +202,10 @@ class StanmoApp:
             if os.path.isdir(os.path.join(model_spec_path, item)):
                 try:
                     spec_name = load_class(item+'.__model_spec_name__')
-                    spec_list.append({"name":spec_name, "path":os.path.join(model_spec_path,item)} )
                 except:
+                    logger.debug('failed to load __model_spec_name__  for model spec: ' + item)
                     continue;
+                spec_list.append({"name":spec_name, "path":os.path.join(model_spec_path,item)} )
 
         return spec_list
 

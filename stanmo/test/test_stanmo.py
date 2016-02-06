@@ -70,7 +70,7 @@ class TestChurnMiningModel(FlaskTestCase):
         pass
     def _fit_model(self):
         churn1 = ChurnMiningModel(stanmoapp,self.test_model_name)
-        churn1.fit_csv(input_files = self.fit_input_files,  algorithms=None, model_instance_id = self.fit_model_instance_id)
+        churn1.fit_csv(input_file= self.fit_input_files, algorithms=None, model_instance_id = self.fit_model_instance_id)
         return churn1
 
     def test_fit(self):
