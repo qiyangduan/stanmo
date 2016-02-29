@@ -1,6 +1,6 @@
 stanmo
 ==============
-The goal of stanmo project is to provide standard business models for industry usage. Examples of standard business models include churn prediction in telecom, product recommendation in online ecommerce, etc. Please refer to `Stanmo <http://www.stanmo.com/>` (website still in construction) for list of models available models.
+The goal of stanmo project is to provide standard business models for industry usage. Examples of standard business models include churn prediction in telecom, product recommendation in online ecommerce, etc. Please refer to `Stanmo.com<http://www.stanmo.com/>`_ (website still in construction) for list of models available models.
 
 The problem it solves
 ---------------------
