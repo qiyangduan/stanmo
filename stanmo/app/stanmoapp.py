@@ -172,22 +172,22 @@ class StanmoApp:
             except:
                 continue;
         if len(models) > 0:
-            print 'Model Name:           Spec Name:             Instances:            Champion:         Last Modify Date:  '
+            print('{0:20} {1:35}  {2:19} {3:10}{4:20}  '.format('Model Name:','Spec Name:','Instances:','Champion:','Last Modify Date:'))
             for a_model in models:
                 if len(a_model._loaded_model['model_instances'].keys()) > 3:
                     new_inst_list = a_model._loaded_model['model_instances'].keys()[0:2]
                     new_inst_list.append('...')
                 else:
                     new_inst_list = a_model._loaded_model['model_instances'].keys()
-                print('{0:20} {spec_name:15}  {inst_list:19}        {champ:10}        {modify:20}  '.format(a_model.model_name,
+                print('{0:20} {spec_name:35}  {inst_list:19} {champ:10}{modify:20}  '.format(a_model.model_name,
                                                                                             spec_name = self.model_dict[a_model.model_name]["spec_name"],
-                                                                                            inst_list = str(new_inst_list),
+                                                                                            inst_list = str(list(new_inst_list)),
                                                                                             champ = a_model._loaded_model['champion_instance'],
                                                                                             modify =  a_model._loaded_model['last_modify_date']
                                                                                            )
                       )
         else:
-            print 'No models found!'
+            print('No models found!')
 
         logging.getLogger('stanmo_logger').debug('discovered models: ' + model_list.__str__())
         return model_list

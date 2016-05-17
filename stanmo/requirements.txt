@@ -4,3 +4,6 @@ docopt
 pandas
 scikit-learn
 scipy
+flask-restful
+theano
+six

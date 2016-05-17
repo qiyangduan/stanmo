@@ -1,4 +1,4 @@
-,record_id,prediction_result,prediction_probability
-0,Toby,"[{""The Night Listener"": 3.3477895267131013}, {""Lady in the Water"": 2.8572508984333034}, {""Just My Luck"": 2.4473604699719846}]",0
-1,Lisa Rose,[],0
-2,Gene Seymour,[],0
+,_customer_id,churn_flag,prediction_probability,record_id,prediction_result
+0,411-4232,0,0.1,411-4232,0
+1,373-3251,0,0.2,373-3251,0
+2,343-1965,1,0.7,343-1965,1

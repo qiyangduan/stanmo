@@ -1,0 +1,4 @@
+,_customer_id,churn_flag,prediction_probability,record_id,prediction_result
+0,411-4232,1,0.6,411-4232,1
+1,373-3251,1,0.6,373-3251,1
+2,343-1965,1,0.7,343-1965,1

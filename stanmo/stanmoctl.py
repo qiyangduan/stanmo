@@ -49,14 +49,15 @@ def main():
         elif docopt_args["specs"] == True:
             model_specs = stanmoapp.list_specs()
             if len(model_specs) > 0:
-                print 'Model Spec Name:                   Path:  '
+                print('{0:40} {1:35} '.format('Model Spec Name:','Path:  '))
                 for spec in model_specs:
-                    print('{name:30}     {path:15}     '.format(name = spec["name"],
-                                                                 path = spec["path"]
-                                                                 )
-                          )
+                    if spec["name"] is None:
+                        spec_name = 'No Name'
+                    else:
+                        spec_name = spec["name"]
+                    print('{0:40} {1:35}'.format(spec_name,   spec["path"]) )
             else:
-                print 'No model specs found!'
+                print('No model specs found!')
 
 
     # Parse the User command and the required arguments
@@ -65,13 +66,8 @@ def main():
         model_name = docopt_args["<model_name>"]
         spec_name = docopt_args["--spec"]
         if spec_name is None:
-            # print "You have used the list models: "
-            # print json.dumps(stanmoapp.list_models())
             print("Please specify the <model_name> and <spec_name>")
-        #try:
         stanmoapp.create_model(model_name=model_name, spec_name=spec_name)
-        #except StanmoError as e:
-        #    print('Error during model creation: {0}'.format(e.strerror) )
         print("Model is created successfully.")
 
 
@@ -83,7 +79,7 @@ def main():
         if docopt_args["--input_file"] is not None:
             input_file = docopt_args["--input_file"]
         else:
-            print "Please provide input training data"
+            print("Please provide input training data")
 
         if docopt_args["--instance"] is not None:
             model_instance_id = docopt_args["--instance"]
@@ -104,12 +100,12 @@ def main():
         if docopt_args["--input_file"] is not None:
             input_file = docopt_args["--input_file"]
         else:
-            print "Please provide input and output information"
+            print("Please provide input and output information")
 
         if docopt_args["--output_file"] is not None:
             output_file =  docopt_args["--output_file"]
         else:
-            print "Please provide input and output information"
+            print("Please provide input and output information")
 
         #not used for now
         model_instance_id  = None

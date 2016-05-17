@@ -184,7 +184,7 @@ class BaseMiningModel(object):
         return None
 
     def set_champion_version_id(self, model_instance=None, model_instance_id = None):
-        print "set new version: " + str(model_instance_id)
+        print("set new version: " + str(model_instance_id))
         # caluclate by feedback, set campaign
 
     def add_prediction_history(self,model_name=None, prediction_df = None):
@@ -416,6 +416,16 @@ class BaseMiningModel(object):
         raise NotImplementedError("BaseMiningModel is an abstract Model and should not be used directly!")
     def predict(self, input_file = None, output_file = None):
         raise NotImplementedError("BaseMiningModel is an abstract Model and should not be used directly!")
+
+    def fit_csv(self, input_file=None,  model_instance_id = None):
+        if input_file is None:
+            logging.getLogger('stanmo_logger').debug('Please specify the input file for ETL.')
+            exit(1)
+        churn_source_filename =  input_file
+        input_df = pd.read_csv(churn_source_filename)
+        self.fit_df(input_df = input_df, model_instance_id = model_instance_id)
+
+
     def run(self):
         raise NotImplementedError("BaseMiningModel is an abstract Model and should not be used directly!")
     def show(self):

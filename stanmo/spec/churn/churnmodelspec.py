@@ -113,7 +113,7 @@ class ChurnInputDataEncoder(BaseInputDataEncoder):
         curr_sdf.to_keep_cat_columns = to_keep_cat_columns
         curr_sdf.to_keep_num_columns = to_keep_num_columns
         curr_sdf.keeping_columns = keeping_columns
-        new_df = input_df[keeping_columns.keys()]
+        new_df = input_df[list(keeping_columns.keys())]
         # curr_sdf.df = new_df
 
         all_attribue_names =curr_sdf.keeping_columns.keys()
@@ -195,7 +195,7 @@ class ChurnMiningModel(BaseMiningModel):
         self.input_dataframes[INPUT_DF_NAME].from_csv(csv_file=churn_source_filename)
         self.fit_df(input_sdf = self.input_dataframes[INPUT_DF_NAME], algorithms=algorithms, model_instance_id = model_instance_id)
 
-    def fit_df(self,input_sdf = None, algorithms=None, model_instance_id = None):
+    def fit_df(self,input_sdf = None, input_df = None, algorithms=None, model_instance_id = None):
         if model_instance_id is None:
             curr_model_instance_id = self.new_model_instance_id()
             # If I still get new instance id as -1, it means no more free slots.
@@ -207,10 +207,16 @@ class ChurnMiningModel(BaseMiningModel):
             one_algorithm = RF
             algorithms = [RF]
 
+        if input_sdf is None:
+            self.input_dataframes[INPUT_DF_NAME].df = input_df
+            self.input_dataframes[INPUT_DF_NAME].df = 'Pandas'
+
+        else:
+            self.input_dataframes[INPUT_DF_NAME]  = input_sdf
+
         enc = ChurnInputDataEncoder(curr_sdf=self.input_dataframes[INPUT_DF_NAME], stanmoapp=self.stanmoapp)
         # Now inspect the uploaded file and check which column to exclude.
 
-        self.input_dataframes[INPUT_DF_NAME] = input_sdf
 
         # fit the encoder.
         X,y = enc.fit(input_sdf.df).transform(input_sdf.df)

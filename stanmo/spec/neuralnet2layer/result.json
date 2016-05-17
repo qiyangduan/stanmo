@@ -1,0 +1,7 @@
+{"name": "churn_result" , 
+ "column_name_types": [["_customer_id","string"],
+                       ["_churn_flag","number"],
+                       ["probability","number"]] , 
+ "target_column": "_churn_flag",
+ "pk_column":"_customer_id" 
+}
